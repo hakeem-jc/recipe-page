@@ -1,30 +1,48 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import omelette from "@/images/omelette.jpeg";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      
-    Simple Omelette Recipe
+       <section>
+        <Image
+            className={styles.image}
+            src={omelette}
+            alt="Omellete"
+            width={375}
+            height={171}
+            priority
+          />
+
+          <section className="content">
+            <article className={styles.description}>
+            Simple Omelette Recipe
 
 An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
 to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+            </article>
 
+            <article className={styles.prepTime}>
 Preparation time
 
 Total: Approximately 10 minutes
 Preparation: 5 minutes
 Cooking: 5 minutes
+            </article>
 
-Ingredients
+            <article className={styles.recipeSection}>
+            Ingredients
 
 2-3 large eggs
 Salt, to taste
 Pepper, to taste
 1 tablespoon of butter or oil
 Optional fillings: cheese, diced vegetables, cooked meats, herbs
+            </article>
 
-Instructions
+            <article className={styles.recipeSection}>
+            Instructions
 
 Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
 You can add a tablespoon of water or milk for a fluffier texture.
@@ -41,8 +59,10 @@ Fold and serve: As the omelette continues to cook, carefully lift one edge and f
 fillings. Let it cook for another minute, then slide it onto a plate.
 
 Enjoy: Serve hot, with additional salt and pepper if needed.
+            </article>
 
-Nutrition
+            <article className={styles.recipeSection}>
+            Nutrition
 
 The table below shows nutritional values per serving without the additional fillings.
 
@@ -57,6 +77,9 @@ Protein
 
 Fat
 22g
+            </article>
+          </section>
+       </section>
 
       <footer className="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
