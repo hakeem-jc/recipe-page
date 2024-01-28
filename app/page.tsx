@@ -15,12 +15,10 @@ export default function Home() {
             priority
           />
 
-        <section className="content">
-          <article className={styles.description}>
-          Simple Omelette Recipe
-
-An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
-to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+        <section className={styles.content}>
+          <article>
+            <h1 className={styles.descriptionTitle} >Simple Omelette Recipe</h1>
+            <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
           </article>
 
           <article className={styles.prepTime}>
