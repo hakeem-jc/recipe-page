@@ -26,8 +26,6 @@ body {
   color: var(--dark-charcoal);
   display: flex;
   justify-content: center;
-  padding-top: 123px;
-  padding-bottom: 124px;
 }
 
 p {
@@ -50,4 +48,20 @@ h2 {
 
 h3 {
   color: var(--dark-raspberry);
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-raspberry);
+}
+
+footer {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding-top: 123px;
+    padding-bottom: 124px;
+  }
 }

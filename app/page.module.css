@@ -4,9 +4,22 @@
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
+}
+
+.recipeContainer {
   background-color: white;
   max-width: 375px;
   border-radius: 8px;
+}
+
+.image {
+  margin-bottom: 2.5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 

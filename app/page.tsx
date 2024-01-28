@@ -5,7 +5,7 @@ import omelette from "@/images/omelette.jpeg";
 export default function Home() {
   return (
     <main className={styles.main}>
-       <article>
+       <article className={styles.recipeContainer}>
         <Image
             className={styles.image}
             src={omelette}
