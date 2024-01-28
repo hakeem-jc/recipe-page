@@ -24,6 +24,10 @@
 body {
   background-color: var(--eggshell);
   color: var(--dark-charcoal);
+  display: flex;
+  justify-content: center;
+  padding-top: 123px;
+  padding-bottom: 124px;
 }
 
 p {
