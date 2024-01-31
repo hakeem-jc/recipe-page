@@ -43,11 +43,11 @@
   padding: 1.5rem;
 }
 
-.prepList {
+.listItem {
   margin-left: 1rem;
 }
 
-.prepList li {
+.listItem li {
   padding-left: 1rem;
   padding-bottom: 0.5rem;
 }
