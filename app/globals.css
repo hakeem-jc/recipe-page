@@ -64,6 +64,8 @@ footer {
 
 .attribution {
   padding: 1rem;
+  text-align: center;
+  text-wrap: wrap;
 }
 
 @media screen and (min-width: 768px) {

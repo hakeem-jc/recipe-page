@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 100vh;
 }
 
 .recipeContainer {
@@ -91,5 +90,9 @@
 @media screen and (min-width: 375px) {
   .image, .main {
     border-radius: 8px;
+  }
+
+  .recipeContainer {
+    width: 736px;
   }
 }
