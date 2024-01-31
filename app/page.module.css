@@ -26,7 +26,6 @@
   width: 311px;
 }
 
-
 .descriptionTitle {
    font-size: 36px;
    font-weight: 500;
@@ -68,7 +67,26 @@
   border-top: 1px solid var(--light-grey);
 }
 
+.nutritionInfo {
+  margin-top: 0.75rem;
+  padding-bottom: 2.5rem;
+}
 
+.row {
+  display: flex;
+  justify-content: space-between; 
+  padding: 0.75rem 2rem 0.75rem 2rem;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.row:last-child {
+  border: none;
+}
+
+.coloredCell {
+  color: var(--nutmeg);
+  font-weight: 600;
+}
 
 @media screen and (min-width: 375px) {
   .image, .main {
