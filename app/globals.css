@@ -46,6 +46,7 @@ h1 {
 h2 {
   color: var(--nutmeg);
   margin-bottom: 24px;
+  font-weight: 500;
 }
 
 h3 {
