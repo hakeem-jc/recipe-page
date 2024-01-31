@@ -32,6 +32,30 @@
    font-weight: 500;
 }
 
+.prepTitle {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Outfit', sans-serif;
+}
+
+.prepTime {
+  background-color:  var(--rose-white);
+  padding: 1.5rem;
+}
+
+.prepList {
+  margin-left: 1rem;
+}
+
+.prepList li {
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
 @media screen and (min-width: 375px) {
   .image, .main {
     border-radius: 8px;
