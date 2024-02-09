@@ -73,9 +73,13 @@
 
 .row {
   display: flex;
-  justify-content: space-between; 
-  padding: 0.75rem 2rem 0.75rem 2rem;
+  gap: 1rem;
+  padding: 0.75rem 0rem 0.75rem 2rem;
   border-bottom: 1px solid var(--light-grey);
+}
+
+.cell {
+  width: 115.5px;
 }
 
 .row:last-child {
@@ -116,7 +120,7 @@
     border-top: none;
   }
 
-  .row { 
-    justify-content: space-between;
+  .cell {
+    width: 288px;
   }
 }
