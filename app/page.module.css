@@ -7,7 +7,7 @@
 
 .recipeContainer {
   background-color: white;
-  max-width: 375px;
+  width: 375px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -87,12 +87,36 @@
   font-weight: 600;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 376px) {
+  .image, .main {
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
   .image, .main {
     border-radius: 8px;
   }
 
+  .image {
+    height: 300px;
+    width: 656px;
+  }
+
   .recipeContainer {
     width: 736px;
+    padding-top: 40px;
+  }
+
+  .content {
+    width: 656px;
+  }
+
+  .instructionSection { 
+    border-top: none;
+  }
+
+  .row { 
+    justify-content: space-between;
   }
 }
