@@ -93,7 +93,7 @@ export default function Home() {
         </section>
        </article>
 
-      <footer className="attribution">
+      <footer className={styles.attribution}>
         <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. </p>
         <p>Coded by <a href="https://www.frontendmentor.io/profile/hakeem-jc">Hakeem Clarke</a>.</p>
       </footer>

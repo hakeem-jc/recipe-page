@@ -123,4 +123,8 @@
   .cell {
     width: 288px;
   }
+
+  .attribution { 
+    margin: 2rem 0 1rem 0;
+  }
 }
