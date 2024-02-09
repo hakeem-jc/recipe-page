@@ -10,8 +10,8 @@ Your challenge is to build out this recipe page and get it looking as close to t
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm/hub?share=true](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm/hub?share=true)
+- Live Site URL: [https://recipe-page-self.vercel.app/](https://recipe-page-self.vercel.app/)
 
 
 ### Built with
